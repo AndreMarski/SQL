@@ -1,0 +1,20 @@
+CREATE TABLE store_database (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, aisle INTEGER);
+
+INSERT INTO store_database VALUES (1, "Grand Strategy", 10, 50, 1);
+INSERT INTO store_database VALUES (2, "Strategy", 10, 50, 1);
+INSERT INTO store_database VALUES (3, "Racing", 10, 50, 1);
+INSERT INTO store_database VALUES (4, "FPS", 10, 50, 1);
+INSERT INTO store_database VALUES (5, "Roguelike", 10, 50, 1);
+INSERT INTO store_database VALUES (6, "Simulation", 10, 50, 1);
+INSERT INTO store_database VALUES (7, "Adventure", 10, 50, 1);
+INSERT INTO store_database VALUES (8, "Action", 10, 50, 1);
+INSERT INTO store_database VALUES (9, "Card Game", 10, 50, 1);
+INSERT INTO store_database VALUES (10, "RPG", 10, 50, 1);
+INSERT INTO store_database VALUES (11, "Idle",10, 50, 1);
+INSERT INTO store_database VALUES (12, "MOBA", 10, 50, 1);
+INSERT INTO store_database VALUES (13, "Party Game", 10, 50, 1);
+INSERT INTO store_database VALUES (14, "4x", 10, 50, 1);
+INSERT INTO store_database VALUES (15, "Sports", 10, 50, 1);
+
+SELECT * FROM store_database ORDER BY price;
+SELECT * FROM store_database ORDER BY aisle;
